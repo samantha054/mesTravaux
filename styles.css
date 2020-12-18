@@ -344,6 +344,7 @@ input[type=number], input[type=button]{
         width: 100px;
         height: 100px;
         font-size: 45px;
+        text-align: center;
     }
 
 }
@@ -365,6 +366,7 @@ input[type=number], input[type=button]{
         width: 100px;
         height: 100px;
         font-size: 45px;
+        text-align: center;
     }
 
 }
