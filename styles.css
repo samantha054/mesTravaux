@@ -341,6 +341,7 @@ input[type=number], input[type=button]{
     .mesLettres input{
         margin: 1px;
         padding: 20px;
+        width: 100px;
     }
 
 }
