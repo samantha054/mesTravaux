@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Evaluation</title>
+</head>
+
+<body>
+    <div class="accueil">
+        <h1>Présentation de mes travaux en Javascript</h1>
+        <a href="index.html"><img src="images/accueil.gif" alt=""></a>
+    </div>
+
+    <nav>
+        <ul>
+            <a href="tp1Siage.html">
+                <li>TP1 - Siage</li>
+            </a>
+            <a href="tp2Somme.html">
+                <li>TP2 - Somme</li>
+            </a>
+            <a href="tp3tqAge.html">
+                <li>TP3 - TQAge</li>
+            </a>
+            <a href="tp4Multi.html">
+                <li>TP4 - Multi</li>
+            </a>
+            <a href="tp5Factor.html">
+                <li>TP5 - Factor</li>
+            </a>
+            <a href="tp6Impair.html">
+                <li>TP6 - Impair</li>
+            </a>
+            <a href="tp7Hypothenuse.html">
+                <li>TP7 - Hypothénuse</li>
+            </a>
+            <a href="lePendu2.html">
+                <li>TP8 - Le pendu</li>
+            </a>
+            <a href="evaluation.html">
+                <li>Evaluation - Algorithmie</li>
+            </a>
+            <a href="">
+                <li>Formulaire</li>
+            </a>
+        </ul>
+    </nav>
+
+    <div class="evaluation">
+        <h1 class="titleTpEval">L'évaluation</h1>
+        <h2>Exercice 1 - Somme des entiers</h2>
+    </div>
+    
+    <label for="btn">Entrez un nombre</label>
+    <input type="number" name="btn" id="btn">
+    <input type="button" value="envoyer" onclick="sommeDesEntiersEval()">
+    <div class="resultatSomme"></div>
+
+    <h2>Montée en puissance</h2>
+
+    
+    <input type="number" name="x1" id="x1" placeholder="valeur de X">
+    <input type="number" name="y1" id="y1" placeholder="valeur de Y">
+
+    <input type="button" value="envoyer" onclick="monteeEnPuissance()">
+    <div class="monteeEnPuissance"></div>
+
+    <h2>Le Dix - Vingt</h2>
+
+    
+    <input type="number" name="dix" id="dix" placeholder="Entrez un nombre">
+     
+    <input type="button" value="envoyer" onclick="leDixVingt()">
+    <span class="messageErreur"></span>
+    <div class="leDixVingt"></div>
+
+
+    <script src="eval.js"></script>
+</body>
+
+</html>

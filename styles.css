@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2{
+    text-align: center;
+    margin: 10px;
+}
+
+.accueil{
+    display: grid;
+    grid-template-columns: 160px 3fr 160px;
+    align-items: center;
+}
+
+.accueil img{
+    grid-column: 3;
+    width: 150px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.accueil a{
+    width: 150px;
+    align-self: center;
+}
+.accueil h1{
+    grid-column: 2;
+    align-self: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: brown;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+nav ul li{
+    list-style: none;
+}
+
+nav ul a{
+    text-decoration: none;
+    display: block;
+    background-color: brown;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+}
+
+a:hover{
+    background-color: blanchedalmond;
+}
+
+input[type=number], input[type=button]{
+    padding: 20px;
+    margin: 40px 2px;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* TP2 */
+
+.deposit{
+    text-align: center
+}
+.valeurs{
+    text-align: center;
+    font-weight: bolder;
+}
+.result{
+    text-align: center;
+}
+/* TP3 */
+
+.again{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.reponse{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.rep{
+    text-align: center;
+}
+/* TP 4 */
+#multi{
+    padding: 20px;
+    display: grid;
+    grid-column: 3;
+    grid-row: 1 / span2;
+    margin: 10px;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: brown;
+    border-radius: 2em;
+}
+
+.multiplication{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.titleTp4{
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.multiplication h2{
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.drawParent{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.draw td{
+    font-size: 25px;
+    padding: 10px;
+}
+
+/* TP 5 */
+
+.factorParent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1fr 1fr;
+    justify-items: center;
+}
+
+#nbr{
+    display: grid;
+    grid-column: 3;
+    grid-row: 1;
+    padding: 2px;
+    margin-bottom: 0;
+}
+
+.factorParent input[type=button]{
+    display: grid;
+    grid-column: 3;
+    grid-row: 2;
+    margin-top: 5px;
+    padding: 0;
+}
+
+.factor{
+    display: grid;
+    grid-column: 3;
+    grid-row: 3;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* TP 6 */
+
+.impParent{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* TP7 */
+
+.entrer{
+    display: flex;
+    justify-content: center;
+}
+
+.hypo{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/* TP 8 */
+
+.lependu{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    color: darkblue;
+    display: grid;
+    grid-row: 2;
+    grid-column: 2/ span 3;
+    align-items: center;
+}
+
+.lettres{
+    display: grid;
+    grid-template-columns: 500px 0.5fr 0.5fr 0.5fr 2fr ;
+    grid-template-rows: 1fr 1fr 1fr 0.5fr 3fr;
+}
+
+.titleTp8{
+    display: grid;
+    grid-row: 1;
+    grid-column: 2/ span 3;
+}
+
+.image{
+    display: grid;
+    grid-column: 1;
+    grid-row: 1 / span 5;
+    margin: 0;
+    padding: 0;
+    justify-items: flex-start;
+}
+
+#lettre{
+    display: grid;
+    grid-column: 2;
+    grid-row: 3;
+    font-size: 40px;
+    width: 120px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+#myBtn{
+    display: grid;
+    grid-column: 3;
+    grid-row: 3;
+    width: 70px;
+    margin-left: 10px;
+}
+.rejouer{
+    display: grid;
+    grid-column: 2/ span 2;
+    grid-row: 5;
+    width: 70px;
+    margin-left: 10px;
+}
+
+#novalid{
+    display: grid;
+    grid-column: 4;
+    grid-row: 3;
+    text-align: center;
+    align-items: center;
+}
+
+.essais{
+    display: grid;
+    grid-column: 5;
+    grid-row: 3;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.lsaisie{
+    display: grid;
+    grid-column: 5;
+    grid-row: 2;
+    text-align: center;
+    align-items: center;
+}
+
+/* Le pendu version 2 */
+
+.mesLettres input{
+    border-radius: 1cm;
+    box-shadow: 1px 1px 20px rgb(236, 89, 114);
+}
+#a,#b,#c,#d,#e,#f,#g,#h,#i,#j,#q,#r,#s,#t,#u,#v,#w,#x,#y,#z{
+    background-color: red;    
+}
+#k,#l,#m,#n,#o,#p{
+    background-color: yellow;
+}
+
+.mesLettres{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.miseEnForme{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: royalblue;
+    font-weight: bolder;
+}
+.miseEnForme2{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.rejouerParent{
+    display: flex;
+    justify-content: center;
+    
+}
+.rejouer2 button{
+    font-size: 50px;
+    padding: 10px;
+    margin-top: 30px;
+}
+.image2{
+    position: absolute;
+    z-index: -1;
+    top: 33%;
+    left: 5%;
+}
+@media only screen and (max-width: 652px) {
+    .image2 {
+    position: absolute;
+    z-index: -1;
+    top: 450px;
+    left: 35%;
+}
+    .essais2{
+        margin-bottom: 200px;
+    }
+
+    .mesLettres input{
+        margin: 1px;
+        padding: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 452px) {
+    .image2 {
+    position: absolute;
+    z-index: -1;
+    top: 530px;
+    left: 35%;
+}
+    .essais2{
+        margin-bottom: 200px;
+    }
+
+    .mesLettres input{
+        margin: 1px;
+        padding: 20px;
+    }
+
+}
