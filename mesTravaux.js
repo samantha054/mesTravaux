@@ -165,7 +165,7 @@ function controle7() {
 
 //TP8
 
-var ensMots = ['ordinateur', 'sauvage', 'bootstrap', 'javascript', 'ecran', 'formations', 'touches', 'cadre', 'cigarettes', 'baignoire', 'peluche', 'couverture', 'porte', 'placard', 'enceinte', 'programmation'];
+var ensMots = ['proverbes','amour','amitie','patience','informatique','indulgence','intervertebraux','receptionniste','fragmentation','zebre','moutons','chiens','octroyer','vampire','fantome','miroirs','comprimer','mathematiques','visiter','zigouiller','histoire','americains','comptables','administration','camions','famille','enfants','adresse','irrevocable','imprimante','mythique','corona','invention','pantalon','initial','anatomie','ordinateur', 'sauvage', 'bootstrap','zygomatique','accrocher', 'javascript', 'ecran', 'formations', 'touches', 'cadre', 'cigarettes', 'baignoire', 'peluche', 'couverture', 'porte', 'placard', 'enceinte', 'programmation'];
 
 var motCache = ensMots[(Math.floor(Math.random() * ensMots.length))];
 
