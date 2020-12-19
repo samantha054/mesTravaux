@@ -187,6 +187,10 @@ function rejouer() {
     document.querySelector('.rejouer2').append(rejouer)
 }
 
+/**
+ * 
+ * @param {string} caractere 
+ */
 function lettresaisie(caractere) {
     
     var lettreSaisie = document.querySelector('#'+caractere).value.toLowerCase();
