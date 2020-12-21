@@ -256,9 +256,4 @@ function lettresaisie(caractere) {
     document.querySelector('.essais2').innerHTML = lettresJouees;
 }
 
-//TP eval
-
-
-
-
 

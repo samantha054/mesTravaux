@@ -46,41 +46,40 @@
             <a href="evaluation.html">
                 <li>Evaluation - Algorithmie</li>
             </a>
-            <a href="">
-                <li>Formulaire</li>
-            </a>
         </ul>
     </nav>
 
     <div class="evaluation">
         <h1 class="titleTpEval">L'évaluation</h1>
-        <h2>Exercice 1 - Somme des entiers</h2>
+        <h2>Somme des entiers</h2>
     </div>
-    
-    <label for="btn">Entrez un nombre</label>
-    <input type="number" name="btn" id="btn">
-    <input type="button" value="envoyer" onclick="sommeDesEntiersEval()">
-    <div class="resultatSomme"></div>
+
+    <div class="ex1">
+        <input type="number" placeholder="Entrez un nombre" name="btn" id="btn">
+        <input type="button" value="envoyer" onclick="sommeDesEntiersEval()">
+        <div class="resultatSomme"></div>
+    </div>
+
 
     <h2>Montée en puissance</h2>
+    <div class="ex2">
 
-    
-    <input type="number" name="x1" id="x1" placeholder="valeur de X">
-    <input type="number" name="y1" id="y1" placeholder="valeur de Y">
+        <input type="number" name="x1" id="x1" placeholder="valeur de X">
+        <input type="number" name="y1" id="y1" placeholder="valeur de Y">
 
-    <input type="button" value="envoyer" onclick="monteeEnPuissance()">
-    <div class="monteeEnPuissance"></div>
+        <input type="button" value="envoyer" onclick="monteeEnPuissance()">
+        <div class="monteeEnPuissance"></div>
+    </div>
+
 
     <h2>Le Dix - Vingt</h2>
+    <div class="ex3">
 
-    
-    <input type="number" name="dix" id="dix" placeholder="Entrez un nombre">
-     
-    <input type="button" value="envoyer" onclick="leDixVingt()">
-    <span class="messageErreur"></span>
-    <div class="leDixVingt"></div>
+        <input type="number" name="dix" id="dix" placeholder="Entrez un nombre">
 
-
+        <input type="button" value="envoyer" onclick="leDixVingt()">
+        <span class="messageErreur"></span>
+    </div>
     <script src="eval.js"></script>
 </body>
 

@@ -34,7 +34,6 @@ function leDixVingt() {
    
     var dix = +document.querySelector('#dix').value;
     document.querySelector('.messageErreur').textContent = '';
-    console.log(dix); 
     if (dix < 10 || dix > 20) {
         
         if (dix<10) {
@@ -52,6 +51,10 @@ function leDixVingt() {
         document.querySelector('#dix').value=''
 
     }
-    document.querySelector('.leDixVingt').innerHTML= 'Le resultat correspond ! Vous avez effectué '
+    else{
+        document.querySelector('.messageErreur').textContent= 'Le resultat correspond ! Vous avez effectué '
      + nombreEssais + ' essais !';
+     document.querySelector('.messageErreur').style.color = 'black';
+    }
+    
 }

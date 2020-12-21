@@ -370,3 +370,24 @@ input[type=number], input[type=button]{
     }
 
 }
+
+/* Eval */
+
+.ex1, .ex2, .ex3{
+    display: flex;
+    justify-content: center;
+}
+
+.ex1 input, .ex2 input, .ex3 input{
+    margin: 10px;
+}
+
+
+.titleTpEval{
+    margin-bottom: 50px;
+    color: red;
+}
+
+.messageErreur{
+    align-self: center;
+}
