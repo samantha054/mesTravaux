@@ -195,21 +195,25 @@ function lettresaisie(caractere) {
     
     var lettreSaisie = document.querySelector('#'+caractere).value.toLowerCase();
 
-    if (motCache.match(lettreSaisie)) {
-        for (var j = 0; j < (motCache.length); j++) {
-            if (lettreSaisie == motCache.substr(j, 1)) {
+    if (motCache.match(lettreSaisie)) 
+    {
+        for (var j = 0; j < (motCache.length); j++) 
+        {
+            if (lettreSaisie == motCache.substr(j, 1)) 
+            {
                 motCrypte = motCrypte.substr(0, j) + motCache.substr(j, 1) + motCrypte.substr(j + 1, motCache.length);
             }
 
         }
-
     }
-    else {
+    else 
+    {
         lettresJouees.push(lettreSaisie);
         nbEssais--;
     }
 
-    switch (nbEssais) {
+    switch (nbEssais) 
+    {
         case 10:
             document.querySelector('.image2').innerHTML = '';
             break;
@@ -246,10 +250,10 @@ function lettresaisie(caractere) {
             setTimeout(function () { alert('Vous avez perdu ...\nle mot était : ' + motCache) }, 300);
             rejouer();
     }
-    if (motCrypte == motCache) {
+    if (motCrypte == motCache) 
+    {
         alert('vous avez gagné ! '+ motCache + ' '+ 'était bien le mot à chercher');
         rejouer();
-        
     }
     
     document.querySelector('.lependu2').innerHTML = motCrypte;
